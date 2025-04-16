@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perancangan Web</title>
+    <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="image/icon.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-   <header font-size: larger; color: black;>Rafa Fathur Rohman (Mahasiswa Global Institute)</header>
-   <br> <p> <b id="naik">Foto Lingkaran</b></p>
-   <img src="image/icon.webp" style="text-align: center; border-radius: 50%;" width="200px" >
-   <br> <p> <b>List Biodata</b></p>
-   <li> Kampus : <a href="https://global.ac.id/">Global Institute</a></li>
-    <li> Nim :1124160130</li>
-    <li> Nama :Rafa Fathur Rohman</li>
-    <li> Jurusan :Teknik Informatika </li>
-    <li> Semester :2 </li>
-    <li> Matakuliah :Perancangan Web </li>
-    <br> <p> <b>Table List Tugas</b></p>
-    <table border="1" style="border-collapse: collapse; text-align: center; width: 100%;" >
+    <header id="naik">Rafa Fathur Rohman (Mahasiswa Global Institute)</header>
+
+    <div class="centered-content">
+        <img src="image/icon.webp" alt="Foto Profil" class="circle-img" width="200px">
+        <ul class="biodata">
+            <li>Kampus : <a href="https://global.ac.id/">Global Institute</a></li>
+            <li>Nim : 1124160130</li>
+            <li>Nama : Rafa Fathur Rohman</li>
+            <li>Jurusan : Teknik Informatika</li>
+            <li>Semester : 2</li>
+            <li>Matakuliah : Perancangan Web</li>
+        </ul>
+    </div>
+    <table>
         <tr>
             <th>No</th>
             <th>Tugas</th>
@@ -41,15 +44,20 @@
             <td><a href="https://github.com/rapp-afk/1124160130-html-per7">Klik Di Sini</a></td>
         </tr>
     </table>
-    <br> <p> <b>Link Peta</b></p>
+
+<div class="centered-map">
     <img src="image/map1.jpg" usemap="#peta" alt="Peta Pulau">
     <map name="peta">
         <area shape="rect" coords="20,79,120,179" alt="aceh" href="aceh.html">
         <area shape="rect" coords="255,276,355,376" alt="jawa" href="jawa.html">
-    <br> <p> <b>Tampilan Klik Ke Atas</b></p>
-    <a href="#naik">Klik Di Sini Untuk Balik Ke Atas</a>
-    <th></th>
-    <br> <p> <b>Link Logo</b></p>
+    </map>
+
+    <div class="naik-atas">
+        <a href="#naik">Klik Di Sini Untuk Balik Ke Atas</a>
+    </div>
+</div>
+
+
     <footer>
         <a href="https://github.com/rapp-afk"><i class="fa-brands fa-github"></i></a>
         <a href="mailto:rafafathurrohman42@gmail.com"><i class="fa-solid fa-envelope"></i></a>
